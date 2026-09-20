@@ -6,10 +6,10 @@
  */
 export const UI_TEXT = {
   id: {
-    title: 'Tata Surya Interaktif',
-    subtitle: 'Globe Bumi yang bisa ditarik mundur menjadi seluruh tata surya',
+    title: 'Tata surya test by hapis',
+    subtitle: 'Tarik mundur globe untuk melihat seluruh tata surya',
     loading: 'Menyiapkan tekstur',
-    loadingHint: 'Menyiapkan globe Bumi',
+    loadingHint: 'Menyiapkan globe Bumi dan tata surya',
     scrollHint: 'Gulir (scroll) untuk menjauh',
     scrollHintDetail: 'Perkecil Bumi perlahan sampai seluruh tata surya terlihat',
     dragHint: 'Seret untuk memutar',
@@ -51,7 +51,7 @@ export const UI_TEXT = {
     title: 'Interactive Solar System',
     subtitle: 'An Earth globe you can pull back into the whole solar system',
     loading: 'Loading textures',
-    loadingHint: 'Preparing the Earth globe',
+    loadingHint: 'Preparing the Earth globe and solar system',
     scrollHint: 'Scroll to zoom out',
     scrollHintDetail: 'Pull back from Earth until the whole solar system appears',
     dragHint: 'Drag to orbit',
