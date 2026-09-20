@@ -1,0 +1,25 @@
+{
+  "name": "hermes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Globe Bumi interaktif Three.js yang bisa di-zoom out menjadi tata surya lengkap dengan model detail tiap planet.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node serve.mjs",
+    "test": "node --test test/*.test.mjs",
+    "assets:fetch": "node scripts/fetch-textures.mjs",
+    "assets:gen": "python3 scripts/gen_textures.py",
+    "assets:verify": "node scripts/verify-assets.mjs",
+    "shots": "npm run build && node scripts/screenshot.mjs",
+    "assets": "npm run assets:fetch && npm run assets:gen && npm run assets:verify"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.0"
+  }
+}
